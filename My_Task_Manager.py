@@ -31,7 +31,6 @@ def odstranit_ukol(ukoly):
     index -= 1
     if(0 <= index < len(ukoly)):
         vyber_ukolu = ukoly[index]
-        vyber_ukolu = vyber_ukolu.split("-", 1)[0]
         print(f"Úkol {vyber_ukolu} byl odstraněn.\n\r")
     else:
         print(f"Úkol pod číslem {index + 1} neexistuje.")
